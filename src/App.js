@@ -7,7 +7,7 @@ function App() {
   const [color, setColor] = useState([]);
   const [error, setError] = useState(false);
 
-  const [randomList, setRandomList] = useState([]);
+  const [randomList, setRandomList] = useState(new Values('#248624').all(20));
 
   const handleSubmit = (e) => {
     e.preventDefault();
